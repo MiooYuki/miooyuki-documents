@@ -1,22 +1,21 @@
 <template>
   <div class="container">
-
-    <div class="row" style="margin-top: 20px;">
+    <div class="row">
       <div class="col" v-for="doc in currentData">
-        <div class="card" style="">
+        <div class="card" style="border: rgb(200,200,200) solid 1px; border-radius: 10px; overflow: hidden">
           <img v-bind:src="doc.img" class="card-img-top">
           <div class="card-body">
             <h5 class="card-title" style="padding-top: 10px;"><strong>{{ doc.title }}</strong></h5>
             <p class="card-text">{{ doc.desc }}</p>
-            <a v-bind:href="doc.link" class="btn text-bg-primary">阅读文档</a>
+            <a v-bind:href="doc.link" class="btn btn-primary" style="border-radius: 5px;">阅读文档</a>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="row" style="margin-top: 20px;">
+    <div class="row" style="margin: 20px 0;">
       <div class="col text-center">
-        <div class="btn-group" role="group" aria-label="Basic outlined example">
+        <div class="btn-group" role="group" aria-label="Basic outlined example" style="border: rgb(13,110,253) solid 1px; border-radius: 5px;">
           <template v-for="index in sumPage">
             <button @click="changePage(index)"
                     v-if="index === currentPage"
@@ -34,13 +33,11 @@
         </div>
       </div>
     </div>
-
   </div>
+
 </template>
 
 <script>
-import "../public/js/bootstrap.min"
-
 export default {
   data: function () {
     return {
@@ -165,6 +162,4 @@ export default {
 }
 </script>
 
-<style>
-@import ".vuepress/public/css/bootstrap.min.css";
-</style>
+<style src="../public/css/bootstrap.min.css" scoped />

@@ -2,8 +2,8 @@
 home: true
 modules:
   - BannerBrand
-  - Documents
   - Blog
+  - Documents
   - Footer
 bannerBrand:
   bgImage: '/bg.svg'
