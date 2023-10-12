@@ -1,12 +1,13 @@
 <template>
+
   <div class="container">
     <div class="row">
       <div class="col" v-for="doc in currentData">
-        <div class="card" style="border: rgb(200,200,200) solid 1px; border-radius: 10px; overflow: hidden">
+        <div class="card" style="border: rgb(200,200,200) solid 1px; border-radius: 10px; overflow: hidden;">
           <img v-bind:src="doc.img" class="card-img-top">
           <div class="card-body">
             <h5 class="card-title" style="padding-top: 10px;"><strong>{{ doc.title }}</strong></h5>
-            <p class="card-text">{{ doc.desc }}</p>
+            <p class="card-text" style="height: 50px;">{{ doc.desc }}</p>
             <a v-bind:href="doc.link" class="btn btn-primary" style="border-radius: 5px;">阅读文档</a>
           </div>
         </div>
@@ -45,7 +46,7 @@ export default {
         [
           {
             title: "Fabric wiki",
-            desc: "Fabric 官方中文文档",
+            desc: "Fabric 官方中文文档。",
             link: "/docs/fabric/install/1",
             img: "/imgs/cover/03_HD.554121.jpg"
           },
