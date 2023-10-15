@@ -98,7 +98,7 @@ Eclipse 项目导入你的工作区内，方法就是“文件” — “导入�
 要生成 Minecrat 源代码，运行 gradle 任务 `genSources`。如果你的 IDE 没有嵌入 gradle，在终端内运行以下命令：`./gradlew
 genSources`。反编译可能需要一段时间，取决于计算机的能力。你可能需要在运行任务之后刷新 gradle。
 
-如何阅读源代码，可参考[此教程](/docs/fabric/base/3.md)。
+如何阅读源代码，可参考[此教程](/docs/fabric/base/reading_mc_code.md)。
 
 ## 新手入门
 

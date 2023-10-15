@@ -8,7 +8,7 @@ date: 2023/09/29
 - Minecraft 的很多东西都没有文档
 - 文档和教程很容易过时
 
-阅读 Minecraft 源代码，你首先需要生成源代码。请参考 [建立模组开发环境](/docs/fabric/install/1.md) 中的“生成 Minecraft
+阅读 Minecraft 源代码，你首先需要生成源代码。请参考 [建立模组开发环境](/docs/fabric/install/setup.md) 中的“生成 Minecraft
 源代码”段落。
 
 ## 搜索 Minecraft 类

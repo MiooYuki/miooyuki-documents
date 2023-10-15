@@ -28,18 +28,22 @@ export default defineUserConfig({
             "/docs/fabric/": [
                 {
                     text: "安装",
-                    children: ["/docs/fabric/install/1"]
+                    children: ["/docs/fabric/install/setup"]
                 },
                 {
                     text: "基础",
                     children: [
-                        "/docs/fabric/base/1",
-                        "/docs/fabric/base/2",
-                        "/docs/fabric/base/3",
-                        "/docs/fabric/base/4",
-                        "/docs/fabric/base/5",
-                        "/docs/fabric/base/6",
-                        "/docs/fabric/base/7",
+                        "/docs/fabric/base/primer",
+                        "/docs/fabric/base/introduction",
+                        "/docs/fabric/base/reading_mc_code",
+                        "/docs/fabric/base/terms",
+                        "/docs/fabric/base/side",
+                        "/docs/fabric/base/registry",
+                        "/docs/fabric/base/registry_types",
+                        "/docs/fabric/base/libraries",
+                        "/docs/fabric/base/applychanges",
+                        "/docs/fabric/base/lang",
+                        "/docs/fabric/base/mappings",
                     ]
                 }
             ]

@@ -47,13 +47,13 @@ export default {
           {
             title: "Fabric wiki",
             desc: "Fabric 官方中文文档。",
-            link: "/docs/fabric/install/1",
-            img: "/imgs/cover/03_HD.554121.jpg"
+            link: "/docs/fabric/install/setup",
+            img: "/imgs/cover/fabric.png"
           },
           {
-            title: "1.2",
-            desc: "占位",
-            link: "#",
+            title: "theme-reco",
+            desc: "reco 主题示例页面。",
+            link: "/docs/theme-reco/api",
             img: "/imgs/cover/default.png"
           },
           {
