@@ -51,9 +51,9 @@ export default {
             img: "/imgs/cover/fabric.png"
           },
           {
-            title: "theme-reco",
-            desc: "reco 主题示例页面。",
-            link: "/docs/theme-reco/api",
+            title: "Apache Shiro",
+            desc: "Shiro 官方文档翻译。",
+            link: "/docs/shiro/menu",
             img: "/imgs/cover/default.png"
           },
           {
