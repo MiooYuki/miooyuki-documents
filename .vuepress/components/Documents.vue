@@ -53,9 +53,15 @@ export default {
             img: "/imgs/cover/fabric.png"
           },
           {
+<<<<<<< HEAD
             title: "1.2",
             desc: "占位",
             link: "#",
+=======
+            title: "Apache Shiro",
+            desc: "Shiro 官方文档翻译。",
+            link: "/docs/shiro/menu",
+>>>>>>> f9f84a33ac04d9593a6af08beab5a2b0f4b51075
             img: "/imgs/cover/default.png"
           },
           {

@@ -45,6 +45,18 @@ export default defineUserConfig({
                         "/docs/fabric/base/lang",
                         "/docs/fabric/base/mappings",
                     ]
+                },
+                {
+                    text: "物品",
+                    children: ["/docs/fabric/item/items_docs"]
+                },
+            ],
+            "/docs/shiro/": [
+                {
+                    text: "Apache Shiro",
+                    children: [
+                        "menu"
+                    ]
                 }
             ]
         },
