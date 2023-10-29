@@ -1,6 +1,8 @@
 <template>
 
   <div class="container">
+    <h1 style="width: fit-content; margin: 0 auto 50px; text-align: center; font-size: 4rem; font-weight: bold; background: linear-gradient(to right, rgb(95,102,229), rgb(173,84,142)); -webkit-background-clip: text; color: transparent;">
+      文档</h1>
     <div class="row">
       <div class="col" v-for="doc in currentData">
         <div class="card" style="border: rgb(200,200,200) solid 1px; border-radius: 10px; overflow: hidden;">
@@ -16,7 +18,7 @@
 
     <div class="row" style="margin: 20px 0;">
       <div class="col text-center">
-        <div class="btn-group" role="group" aria-label="Basic outlined example" style="border: rgb(13,110,253) solid 1px; border-radius: 5px;">
+        <div class="btn-group" role="group" style="border: rgb(13,110,253) solid 1px; border-radius: 5px;">
           <template v-for="index in sumPage">
             <button @click="changePage(index)"
                     v-if="index === currentPage"
@@ -51,9 +53,9 @@ export default {
             img: "/imgs/cover/fabric.png"
           },
           {
-            title: "theme-reco",
-            desc: "reco 主题示例页面。",
-            link: "/docs/theme-reco/api",
+            title: "1.2",
+            desc: "占位",
+            link: "#",
             img: "/imgs/cover/default.png"
           },
           {
