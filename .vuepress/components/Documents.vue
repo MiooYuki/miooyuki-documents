@@ -56,7 +56,7 @@ export default {
             title: "Apache Shiro",
             desc: "Shiro 官方文档翻译。",
             link: "/docs/shiro/menu",
-            img: "/imgs/cover/default.png"
+            img: "/imgs/cover/shiro.png"
           },
           {
             title: "1.3",

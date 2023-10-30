@@ -55,7 +55,8 @@ export default defineUserConfig({
                 {
                     text: "Apache Shiro",
                     children: [
-                        "menu"
+                        "menu",
+                        "10mtutorial"
                     ]
                 }
             ]
