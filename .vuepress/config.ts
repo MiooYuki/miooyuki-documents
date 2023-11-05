@@ -1,5 +1,5 @@
 import {defineUserConfig} from "vuepress";
-import { mdEnhancePlugin } from "vuepress-plugin-md-enhance";
+import {mdEnhancePlugin} from "vuepress-plugin-md-enhance";
 import recoTheme from "vuepress-theme-reco";
 
 export default defineUserConfig({
@@ -21,16 +21,6 @@ export default defineUserConfig({
         lastUpdatedText: "",
         // series 为原 sidebar
         series: {
-            "/docs/theme-reco/": [
-                {
-                    text: "module one",
-                    children: ["home", "theme"],
-                },
-                {
-                    text: "module two",
-                    children: ["api", "plugin"],
-                },
-            ],
             "/docs/fabric/": [
                 {
                     text: "安装",
