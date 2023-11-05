@@ -1,9 +1,15 @@
 import {defineUserConfig} from "vuepress";
+import { mdEnhancePlugin } from "vuepress-plugin-md-enhance";
 import recoTheme from "vuepress-theme-reco";
 
 export default defineUserConfig({
     title: "Miooyuki Documents",
     description: "Just playing around",
+    plugins: [
+        mdEnhancePlugin({
+            katex: true
+        }),
+    ],
     theme: recoTheme({
         style: "@vuepress-reco/style-default",
         logo: "/logo.png",
@@ -63,7 +69,7 @@ export default defineUserConfig({
         },
         navbar: [
             {text: "主页", icon: "Home", link: "/"},
-            {text: "分类", icon: "Category", link: "/categories/reco/1/"},
+            {text: "分类", icon: "Category", link: "/categories/houduan/1"},
             {text: "标签", icon: "Tag", link: "/tags/tag1/1/"},
         ],
     }),

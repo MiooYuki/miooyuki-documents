@@ -13,5 +13,9 @@
   "dependencies": {
     "vuepress": "^2.0.0-beta.67",
     "vuepress-theme-reco": "2.0.0-beta.68"
+  },
+  "devDependencies": {
+    "katex": "^0.16.9",
+    "vuepress-plugin-md-enhance": "^2.0.0-beta.245"
   }
 }
