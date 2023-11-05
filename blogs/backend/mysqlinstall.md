@@ -69,3 +69,10 @@ default-character-set=utf8
 
 ## 使用 Navicat 连接数据库
 
+新建 MySQL 连接，输入连接名，用户名，密码，点击测试连接。
+
+![](/imgs/blog/mysqlinstall/connect.png)
+
+连接成功。
+
+![](/imgs/blog/mysqlinstall/success.png)
