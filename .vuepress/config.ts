@@ -59,7 +59,7 @@ export default defineUserConfig({
         },
         navbar: [
             {text: "主页", icon: "Home", link: "/"},
-            {text: "分类", icon: "Category", link: "/categories/houduan/1"},
+            {text: "分类", icon: "Category", link: "/categories/Unity/1/"},
             {text: "标签", icon: "Tag", link: "/tags/tag1/1/"},
         ],
     }),

@@ -11,7 +11,7 @@ categories:
 <br>
 选择版本号，选择操作系统，下载压缩包。
 
-![](/imgs/blog/mysqlinstall/download_mysql.png)
+![](/imgs/blogs/backend/mysqlinstall/download_mysql.png)
 
 将下载的压缩包解压到英文路径下。
 
@@ -19,7 +19,7 @@ categories:
 
 1. 在解压的同级目录下创建 `data` 文件夹，作为数据库目录。
 
-![](/imgs/blog/mysqlinstall/createdir.png)
+![](/imgs/blogs/backend/mysqlinstall/createdir.png)
 
 2. 创建 `my.ini` 文件，在文件中写入以下代码：
 
@@ -51,19 +51,19 @@ default-character-set=utf8
 
 3. 进入 `bin` 目录，以管理员身份运行 cmd。
 4. 输入命令 `mysqld --initialize --console` 初始化数据库。记住 A temporary password is generated for root@localhost: 后面生成的随机密码。
-![](/imgs/blog/mysqlinstall/initialize.png)
+![](/imgs/blogs/backend/mysqlinstall/initialize.png)
 5. 输入命令 `mysqld --install` 安装 MySQL 服务。
-![](/imgs/blog/mysqlinstall/install.png)
+![](/imgs/blogs/backend/mysqlinstall/install.png)
 6. 输入命令 `net start mysql` 启动 MySQL 服务。
-![](/imgs/blog/mysqlinstall/start.png)
+![](/imgs/blogs/backend/mysqlinstall/start.png)
 7. 输入命令 `mysql -u root -p` 输入随机临时密码，登录 MySQL。
-![](/imgs/blog/mysqlinstall/login.png)
+![](/imgs/blogs/backend/mysqlinstall/login.png)
 8. 输入命令 `ALTER USER root@localhost IDENTIFIED BY '新密码';` 修改密码。
-![](/imgs/blog/mysqlinstall/alter.png)
+![](/imgs/blogs/backend/mysqlinstall/alter.png)
 9. 输入命令 `exit` 退出 MySQL。
-![](/imgs/blog/mysqlinstall/exit.png)
+![](/imgs/blogs/backend/mysqlinstall/exit.png)
 10. 尝试使用新密码登录一次 MySQL。
-![](/imgs/blog/mysqlinstall/newpwd.png)
+![](/imgs/blogs/backend/mysqlinstall/newpwd.png)
 
 登录成功，至此，MySQL 安装完毕。
 
@@ -71,8 +71,8 @@ default-character-set=utf8
 
 新建 MySQL 连接，输入连接名，用户名，密码，点击测试连接。
 
-![](/imgs/blog/mysqlinstall/connect.png)
+![](/imgs/blogs/backend/mysqlinstall/connect.png)
 
 连接成功。
 
-![](/imgs/blog/mysqlinstall/success.png)
+![](/imgs/blogs/backend/mysqlinstall/success.png)
