@@ -3,7 +3,7 @@ import {mdEnhancePlugin} from "vuepress-plugin-md-enhance";
 import recoTheme from "vuepress-theme-reco";
 
 export default defineUserConfig({
-    title: "Miooyuki Documents",
+    title: "Miooyukiの大图书馆",
     description: "Just playing around",
     plugins: [
         mdEnhancePlugin({
@@ -59,7 +59,7 @@ export default defineUserConfig({
         },
         navbar: [
             {text: "主页", icon: "Home", link: "/"},
-            {text: "分类", icon: "Category", link: "/categories/Unity/1/"},
+            {text: "分类", icon: "Category", link: "/categories/3Druanjian/1/"},
             {text: "标签", icon: "Tag", link: "/tags/tag1/1/"},
         ],
     }),
